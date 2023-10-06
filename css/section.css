@@ -1,0 +1,113 @@
+
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* first card */
+.section-one{
+  width:fit-content;
+  display:inline;
+}
+
+/* first card box */
+.projects {
+  display: flex;
+  width: fit-content;
+
+  margin: 4rem 2rem;
+  height: 2fr;
+
+  border-radius: 20px;
+
+  background-color: hsl(351, 2%, 80%);
+  }
+
+ .projects-img {
+  display:block;
+  width: 100%;
+  height: 20rem;
+  /* im having trouble using justify-self on this element to center it and im not sure why - this was my solution */
+  align-content: center;
+  }
+
+  .projects-label{
+  display: flex;
+  justify-content: flex-start;
+  
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  max-width: 35ch;
+  min-width: 15ch;
+
+  color: var(--soft-black);
+  font-size:larger;
+  }
+
+  /* this is the style for the about me card */
+  .section-two {
+    width:fit-content;
+    display: inline;
+  }
+  .about {
+    display: flex;
+    width: fit-content;
+    margin: 4rem 2rem;
+    height: 2fr;
+    background-color: hsl(351, 2%, 80%);
+    border-radius: 20px;
+    justify-self: flex-end;
+    }
+  
+   .about-img {
+    display:block;
+    width: 100%;
+    height: 20rem;
+    align-content: center;
+    }
+  
+    .about-label{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+
+    max-width: 35ch;
+    min-width: 15ch;
+  
+    color: var(--soft-black);
+
+    font-size:larger;
+    }
+  
+    /* hover state for about card */
+ .section-link:hover {
+  background-color: var(--candy-blue);
+  color: var(--off-white);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 hsl(351, 8%, 18%, 0.2), 0 6px 20px 0 hsl(351, 8%, 18%, 0.2);
+  }
+
+.projects-label:hover {
+  color: var(--off-white);
+ }
+
+ .about-label:hover {
+  color: var(--off-white);
+ }
+
+  /* for mobile */
+@media screen and  (max-width: 600px) {
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projects {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}

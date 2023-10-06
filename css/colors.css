@@ -1,0 +1,17 @@
+/* main branding colors for portfolio website */
+
+/* hsl(44, 79%, 96%) off white background color */
+/* hsl(356, 100%, 50%) party red */
+/* hsl(29, 100%, 50%) pumpkin orange */
+/* hsl(51, 100%, 50%) bright yellow */
+/* hsl(195, 100%, 35%) candy blue */
+/* hsl(351, 8%, 18%) soft black */
+
+:root {
+  --off-white: hsl(44, 79%, 96%);
+  --party-red: hsl(356, 100%, 50%);
+  --pumpkin-orange: hsl(29, 100%, 50%);
+  --bright-yellow: hsl(51, 100%, 50%);
+  --candy-blue: hsl(195, 100%, 35%);
+  --soft-black: hsl(351, 8%, 18%);
+}
