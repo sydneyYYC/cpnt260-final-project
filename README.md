@@ -1,10 +1,11 @@
 # CPNT260
-## Assignment 4
+## Final Project
 ## Sydney Bruce
-## [git hub repo](https://sydneyyyc.github.io/cpnt260-a4/)
+## git hub repo
 
 ### hamburger menu found in nav.css on line 45
 
 
 ### Attributions
 Logo found at [iconfinder.com](https://www.iconfinder.com/).
+Some Pictures found on Unsplash.com

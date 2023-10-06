@@ -56,6 +56,11 @@ h1 {
   
   background-color: var(--candy-blue);
   }
+  
+  .cta-button:hover{
+    color: var(--pumpkin-orange);
+    background-color: var(--off-white);
+  }
 
   @media screen and (max-width: 1100px) {
 

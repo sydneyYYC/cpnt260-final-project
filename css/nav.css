@@ -19,6 +19,7 @@ nav{
   padding-top: 0.5rem;
 }
 
+/* nav links text styles */
 li {
   margin-left: 1rem;
   margin-right:1.5rem;
@@ -27,16 +28,28 @@ li {
   font-size: 1rem;
 }
 
-.nav-a{
+/* nav links */
+.nav-a {
   color: var(--off-white);
   font-family: 'Cabin' , sans-serif;
+  padding: 1rem;
 }
-
+/* nav links hover */
+.nav-a:hover {
+  background-color: var(--party-red); 
+  border-radius: 20px;
+}
 /* for current menu nav */
 .current-page {
-  color: var(--candy-blue);
+  border-radius: 20px;
+  padding: 0.5rem;
+  padding-top: 0;
+  align-self: flex-start;
 }
 
+.current-page:hover {
+  background-color: var(--party-red); 
+}
 /* the icon in nav bar */
 .navlogo {
   fill: white;
