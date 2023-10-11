@@ -1,0 +1,37 @@
+/* header image  */
+header {
+  display: grid;
+  grid-template-columns: repeat(3, 33vw);
+  grid-template-rows: 33vh 33vh;
+  width: 100vw;
+}
+
+main {
+display: grid;
+grid-template-columns: 33vw 33vw 33vw;
+grid-template-rows: repeat(10, 33vh);
+grid-auto-rows: auto;
+width: 100vw;
+margin: 0;
+padding: 0;
+}
+
+.header-img{
+  width: 99vw;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+
+
+}
+
+/* stops figure images from overflowing the page */
+figure{
+  margin:0;
+}
+
+/* might change later */
+img {
+  width: 30vw;
+  object-fit: contain;
+}
