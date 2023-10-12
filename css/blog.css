@@ -26,7 +26,7 @@ figure{
 
 /* header image style */
 .header-img{
-  width: 100%;
+  width: 99.99vw;
 
   grid-column-start: 1;
   grid-column-end: 4;
