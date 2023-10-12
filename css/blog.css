@@ -26,7 +26,10 @@ figure{
 
 /* header image style */
 .header-img{
+
+  /* having weird bug where its overflowing at 100% */
   width: 99.99vw;
+  margin-bottom: 1rem;
 
   grid-column-start: 1;
   grid-column-end: 4;
@@ -60,7 +63,9 @@ figure{
 grid-row-start: 4;
 align-self: end;
 grid-column: 1 / span 3;
+
 margin: 2rem;
+margin-top: 2rem;
 }
 
 /* two images  section*/
