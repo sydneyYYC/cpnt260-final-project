@@ -21,14 +21,17 @@ figure{
   display: grid;
   grid-template-columns: repeat(4, 33vw);
   grid-template-rows: 33vh 33vh;
-  width: 100vw;
+  width: 99vw;
+  margin: 0;
 }
 
 /* header image style */
 .header-img{
 
   /* having weird bug where its overflowing at 100% */
-  width: 99vw;
+  width: 98vw;
+  margin-left: 0;
+  margin-right: 0;
   object-fit: cover;
   margin-bottom: 1rem;
 
