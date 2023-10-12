@@ -44,7 +44,9 @@ li {
   border-radius: 20px;
   padding: 0.5rem;
   padding-top: 0;
+  color: var(--off-white);
   align-self: flex-start;
+  text-decoration: underline;
 }
 
 .current-page:hover {

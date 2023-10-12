@@ -1,28 +1,14 @@
-/* header image  */
-header {
-  display: grid;
-  grid-template-columns: repeat(3, 33vw);
-  grid-template-rows: 33vh 33vh;
-  width: 100vw;
-}
-
+/* main page grid */
 main {
-display: grid;
-grid-template-columns: 33vw 33vw 33vw;
-grid-template-rows: repeat(10, 33vh);
-grid-auto-rows: auto;
-width: 100vw;
-margin: 0;
-padding: 0;
-}
-
-.header-img{
-  width: 99vw;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-
-
+  display: grid;
+  grid-template-columns: 33vw 33vw 33vw;
+  grid-template-rows: repeat(19, 33vh);
+  grid-auto-rows: auto;
+  
+  /* makes header full size but no overflow */
+  width: 100vw;
+  margin: 0;
+  padding: 0;
 }
 
 /* stops figure images from overflowing the page */
@@ -30,8 +16,154 @@ figure{
   margin:0;
 }
 
-/* might change later */
+/* header container  */
+.blog-header {
+  display: grid;
+  grid-template-columns: repeat(4, 33vw);
+  grid-template-rows: 33vh 33vh;
+  width: 100vw;
+}
+
+/* header image style */
+.header-img{
+  width: 100vw;
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  position: relative;
+
+  /* darkens the photo for text readability */
+  filter: brightness(75%);
+}
+
+/* header h1 and h2 styles */
+.blog-header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  max-width: 45ch;
+  /* puts ontop of image */
+  position: absolute;
+  z-index: 2;
+
+  margin-left: 2rem;
+  padding-top: 3rem;
+
+  color: var(--off-white);
+}
+
+/* first paragraph after header */
+.intro {
+grid-row-start: 4;
+align-self: end;
+grid-column: 1 / span 3;
+margin: 2rem;
+}
+
+/* two images  section*/
+/* makes float images small */
 img {
   width: 30vw;
   object-fit: contain;
+
+}
+
+/* two images */
+.intro-gallery {
+  display: flex;
+  justify-self: end;
+  justify-content: space-around;
+
+  grid-row-start: 5;
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+  margin: auto;
+  padding-left: 2rem;
+}
+
+/* push images towards center */
+.float-img-one {
+  margin-right: 3rem;
+  grid-column-start: 2;
+}
+
+/* michelle lees work */
+/* parent box */
+.work-one{
+  grid-row-start: 6;
+  grid-column: 1 / span 3;
+
+  display: flex;
+  flex-direction: column;
+
+  margin: 3rem;
+  width: 80ch;
+}
+
+/* first and second main section image*/
+.main-image-two, .main-image-one {
+  width: 80vw;
+  margin-top: 0;
+}
+
+/* close up image */
+.close-up-one {
+  width: 50vw;
+  margin-bottom: 4rem;
+}
+
+
+ /* h3 next to close up image */
+.blog-quote {
+  margin-bottom: 1rem;
+}
+
+/* machines to love section */
+/* parent container */
+.work-two {
+  grid-column: 1 / span 3;
+  grid-row-start: 13;
+  margin: 3rem;
+  width: 80ch;
+  margin: 2rem;
+}
+
+.close-up-two {
+  width: 50vw;
+}
+
+/* responsiveness */
+/* tablet view */
+@media screen and (max-width: 855px) {
+
+  .work-one {
+    width: 25rem;
+    grid-row-start: 5;
+  }
+
+  .work-two {
+    grid-row-start: 12;
+    width: 25rem;
+  }
+  .intro {
+    grid-row-start: 3;
+  }
+
+  .intro-gallery {
+    grid-row-start: 4;
+  }
+}
+
+/* mobile view */
+@media screen and (max-width: 490px) {
+  .work-two {
+    grid-row-start: 11;
+  }
+  main {
+    grid-template-rows: repeat(15, 33vh);
+}
 }
