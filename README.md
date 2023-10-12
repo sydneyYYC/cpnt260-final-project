@@ -12,6 +12,10 @@ Other pages can be accessed through nav links 'home' for home page / hero sectio
 - [Blog](https://sydneyyyc.github.io/cpnt260-final-project/blog.html)
 - [Gallery](https://sydneyyyc.github.io/cpnt260-final-project/gallery.html)
 
+### Resources 
+
+[image compression](https://squoosh.app/) 
+
 ### Attributions
 Logo found at [iconfinder.com](https://www.iconfinder.com/).
 Picture 01-hal-gatewood (left picture on home screen) found on Unsplash.com (https://unsplash.com/)
