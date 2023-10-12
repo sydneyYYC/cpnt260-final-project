@@ -28,7 +28,8 @@ figure{
 .header-img{
 
   /* having weird bug where its overflowing at 100% */
-  width: 99.99vw;
+  width: 99vw;
+  object-fit: cover;
   margin-bottom: 1rem;
 
   grid-column-start: 1;
