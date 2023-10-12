@@ -51,8 +51,12 @@
 .card-h {
   font-size: 20px;
   width: min-content;
+  color: var(--soft-black);
 }
 
+p {
+  color: var(--soft-black);
+}
 /* tablet view */
 @media screen and (max-width: 760px) {
   .gallery-main {
@@ -62,7 +66,7 @@
 }
 
 /* mobile view */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .gallery-main {
     grid-template-columns: 1fr;
     grid-template-rows: auto;

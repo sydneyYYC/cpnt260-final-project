@@ -82,7 +82,7 @@ section{
 
     font-size:larger;
     }
-  
+    
     /* hover state for about card */
  .section-link:hover {
   background-color: var(--candy-blue);
