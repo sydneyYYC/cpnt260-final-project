@@ -51,7 +51,11 @@ li {
 
 .current-page:hover {
   background-color: var(--party-red); 
+  border-radius: 20px;
+  padding: 0.5rem;
+  padding-top: 0;
 }
+
 /* the icon in nav bar */
 .navlogo {
   fill: white;

@@ -136,6 +136,17 @@ img {
   width: 50vw;
 }
 
+.blog-list {
+  margin-left: 4rem;
+  margin-bottom: 4rem;
+  grid-row-start: 20;
+  grid-column: 1 / span 3;
+}
+
+.list {
+  color: var(--soft-black);
+  max-width: 45ch;
+}
 /* responsiveness */
 /* tablet view */
 @media screen and (max-width: 855px) {
@@ -156,6 +167,9 @@ img {
   .intro-gallery {
     grid-row-start: 4;
   }
+  .blog-list {
+    grid-row-start: 17;
+  }
 }
 
 /* mobile view */
@@ -164,6 +178,9 @@ img {
     grid-row-start: 11;
   }
   main {
-    grid-template-rows: repeat(15, 33vh);
+    grid-template-rows: repeat(16, 33vh);
+}
+.blog-list {
+  grid-row-start: 16;
 }
 }
