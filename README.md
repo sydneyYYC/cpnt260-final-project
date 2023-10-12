@@ -12,6 +12,10 @@ Other pages can be accessed through nav links 'home' for home page / hero sectio
 - [Blog](https://sydneyyyc.github.io/cpnt260-final-project/blog.html)
 - [Gallery](https://sydneyyyc.github.io/cpnt260-final-project/gallery.html)
 
+## Note
+
+Weird bug on chrome where header is overflowing but isn't touching the edge of page? I've set margins to 0 , and width < 100 but not fixing - this is a chrome only issue. 
+
 ### Resources 
 
 [image compression](https://squoosh.app/) 
