@@ -8,13 +8,13 @@
 Other pages can be accessed through nav links 'home' for home page / hero section page, 'portfolio' for gallery page, and 'blog' for blog page. 
 
 #### Quick Links to pages
-[Hero](https://sydneyyyc.github.io/cpnt260-final-project/)
-[Blog](https://sydneyyyc.github.io/cpnt260-final-project/blog.html)
-[Gallery](https://sydneyyyc.github.io/cpnt260-final-project/gallery.html)
+- [Hero](https://sydneyyyc.github.io/cpnt260-final-project/)
+- [Blog](https://sydneyyyc.github.io/cpnt260-final-project/blog.html)
+- [Gallery](https://sydneyyyc.github.io/cpnt260-final-project/gallery.html)
 
 ### Attributions
 Logo found at [iconfinder.com](https://www.iconfinder.com/).
-Some Pictures found on Unsplash.com
+Picture 01-hal-gatewood (left picture on home screen) found on Unsplash.com (https://unsplash.com/)
 
 What did you dream about last night? 
 Pop-up exhibition put on by artists at [THE BOWS GALLERY](https://www.thebows.org/). 
